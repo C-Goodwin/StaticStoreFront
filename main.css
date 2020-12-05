@@ -1,0 +1,472 @@
+* {
+    margin:0;
+    padding:0;
+}
+.nav-bar {
+    width: 100%;
+    height:80px;
+    background-color: white;
+    border: solid lightgray 1px;
+    margin:0px;
+    padding:0px;
+}
+#logo img{
+    width:auto;
+    height:40px;
+    margin:15px;
+    margin-left:30px;
+    position: relative;
+}
+.nav-bar ul li{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 7px;
+    color: #000000;
+    line-height: 1.5;
+    list-style-type: none;
+    display: inline;
+    position:relative;
+    top: -40px;
+    left: 190px;
+    text-rendering: optimizeLegibility;
+}
+.nav-bar a{
+    text-decoration: none;
+}
+#HK-img {
+    height:20px;
+    width:20px;
+    position:relative;
+    top:-76px;
+    left: 303px;
+}
+.navbar-buttons img{
+    height:35px;
+    width:55px;
+    border-radius: 90%;
+    padding:10px;
+    position:relative;
+    top:-100px;
+    left: 740px
+}
+#first-header {
+    height:30px;
+    width:100%;
+    background-color: white;
+    border:solid lightgray 1px;
+}
+#first-header p{
+    text-align: center;
+    position: relative;
+    display: inline;
+    top:-5px;
+    left: 256px;
+    font-size:14px
+}
+#first-header-image {
+    height:25px;
+    width:25px;
+    position: relative;
+    top: 3px;
+    left:250px;
+}
+#shipping {
+    font-weight: bold;
+}
+#second-header {
+    width:100%;
+    height:50px;
+    background-color: #e5f1f7f8;
+}
+#second-header div {
+    display: inline-block;
+    position: relative;
+}
+.header-buttons {
+    margin:5px;
+    width:80px; 
+    top: -15px;
+}
+.header-words {
+    font-family: sans-serif;
+    font-size: 14px;
+    top:-20px;
+    font-weight: 400;
+}
+#blog-icon img{
+    height:20px;
+    width:30px;
+    position: relative;
+    left: 33px;
+}
+#cafe-icon img{
+    height:20px;
+    width:25px;
+    transform: rotate(40deg);
+    position: relative;
+    left: -3px;
+}
+#locator-icon img{
+    height:20px;
+    width:20px;
+    position: relative;
+    left: 220px;
+}
+#wishlist-icon img{
+    height:45px;
+    width:45px;
+    position: relative;
+    top:13px;
+    left:160px
+}
+#account-icon img{
+    height:25px;
+    width:25px;
+    position: relative;
+    left: 130px;
+}
+#blog {
+    left: 40px;
+}
+#locator {
+    left: 230px;
+}
+#wishlist {
+    left:175px;
+}
+#account {
+    left:135px;
+}
+#advertising-banner {
+    width:100%;
+    height:450px;
+    background-color: rgb(247, 241, 217);
+}
+#ab-leftside {
+    width: 40%
+}
+#ab-leftside h1 {
+    text-align: center;
+    position: relative;
+    top: 125px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+#ab-leftside p {
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+    top: 150px;
+    margin: 15px;
+    font-size: 17px
+}
+#ab-ls-button {
+    background-color: white;
+    border: solid black 1px;
+    height:50px;
+    width:130px;
+    position: relative;
+    top: 190px;
+    left: 100px;
+    text-align: center;
+    display: inline-block;
+}
+#ab-ls-button h4{
+    position: relative;
+    top:15px;
+}
+#ab-rightside {
+    width: 60%;
+    height:425px;
+    float: right;
+    position: relative;
+    top: -185px
+}
+#shop-new {
+    width:800px;
+    height:300px;
+    margin:5px;
+}
+#shop-new h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    position: relative;
+    left:250px;
+    top: 30px;
+}
+.new-arrivals-img img{
+    height:170px;
+    width: 180px;
+}
+.new-arrivals {
+    display:inline-block;
+    position: relative;
+    top:30px;
+    margin:20px;
+    padding:7px;
+    width:180px;
+    height:250px;
+    background-color:rgb(247, 242, 242);
+    font-family: sans-serif;
+}
+.new-arrivals h4 {
+    font-size: 10px
+}
+.new-arrivals h6 {
+    font-size:10px;
+    position: relative;
+    top: 30px;
+    font-weight: 900;
+}
+#na-2 {
+    top:-285px;
+    left: 210px;
+}
+#na-3 {
+    top: -273px;
+    left: 180px
+}
+#na-4 {
+    top: -273px;
+    left: 150px;
+}
+.collection {
+    margin:15px;
+    height:225px;
+    width:250px;
+    display:inline-block;
+    position: relative;
+    top: 125px
+}
+#collection1 {
+    background-image:url(https://cdn.shopify.com/s/files/1/0416/8083/0620/files/coll-01_1600x.jpg?v=1606361743);
+}
+#collection2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0416/8083/0620/files/coll-02_1600x.jpg?v=1606361805);
+}
+#collection3 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0416/8083/0620/files/coll-03_1600x.jpg?v=1606361840);
+}
+#collection4 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0416/8083/0620/files/coll-04_1600x.jpg?v=1606362222);
+}
+#collection5 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0416/8083/0620/files/coll-05_1600x.jpg?v=1606362581);
+}
+#collection6 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0416/8083/0620/files/coll-06_1600x.jpg?v=1606362606);
+}
+.collection h1 {
+    font-family: sans-serif;
+    font-size:40px;
+    color:white;
+    padding:15px;
+    position: relative;
+    top:70px
+}
+.view-prod-box {
+    height: 10px;
+    width: 110px;
+    background-color: white;
+    border: solid black 1px;
+    position: relative;
+    margin:15px;
+    padding:20px;
+    top:55px
+}
+.view-prod-box h5 {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    position: relative;
+    top: -3px
+}
+#characters {
+    Margin:50px;
+    position: relative;
+    top: 100px;
+}
+#characters h1 {
+     font-family: sans-serif;
+     font-size: 35px;
+     position: relative;
+     left:260px;
+}
+#characters img{
+    width:125px;
+    height: 125px;
+    margin: 2px;
+    position: relative;
+    top:50px;
+}
+.collab {
+    height: 275px;
+    width: 295px;
+    display: inline-block;
+    position: relative;
+    top:150px;
+    background-size:cover;
+    filter: brightness(75%)
+}
+.collab h1 {
+    color:white;
+    font-family: sans-serif;
+    text-align:center;
+    position: relative;
+    top:105px
+}
+#Stoney {
+    background-image: url(https://cdn.shopify.com/s/files/1/0416/8083/0620/files/SCL_x_HK_Holiday_Irid_on_Pink_Presents_1D_small_fb00fcab-daa5-4f99-a05b-b413eb409f7d_1600x.jpg?v=1606981051);
+}
+#Leather {
+    background-image: url(https://cdn.shopify.com/s/files/1/0416/8083/0620/files/hp-leathertreaty-815x815px_1600x.jpg?v=1606980477);
+    left: 21px;
+}
+#CremeShop {
+    background-image: url(https://cdn.shopify.com/s/files/1/0416/8083/0620/files/Creme_Shop_Collaboration_Banner_464x464px_1600x.jpg?v=1602543875);
+    left: 40px;
+}
+.special {
+    height: 275px;
+    width: 440px;
+    display: inline-block;
+    position: relative;
+    top:170px;
+    background-size:cover;
+    filter:contrast(50%) brightness(130%);
+    
+}
+#goodies {
+    background-image: url(https://cdn.shopify.com/s/files/1/0416/8083/0620/files/HP_MKT_BLOCK_DEC_CALENDAR_10142020_708x497px_1600x.jpg?v=1606809681);
+}
+#pin {
+    background-image: url(https://cdn.shopify.com/s/files/1/0416/8083/0620/files/HP_MKT_BLOCK_DEC_PIN_10142020_708x497px_1_1600x.jpg?v=1606809584);   
+    left:20px;
+}
+.special h1 {
+    text-align:center;
+    font-family: sans-serif;
+    position: relative;
+    top:110px;
+    font-weight: bold;
+}
+.special p {
+    text-align:center;
+    font-family: sans-serif;
+    position: relative;
+    top:130px;
+}
+#hk-picture {
+    height:75px;
+    width:75px;
+    border-radius: 30px;
+    position: relative;
+    top:290px;
+    left:410px;
+    z-index: 1;
+}
+#subscribe {
+    height:400px;
+    width:100%;
+    background-color: rgb(177, 210, 248);
+    position: relative;
+    top:250px;
+    font-family:sans-serif;  
+}
+#subscribe h1 {
+    text-align: center;
+    position: relative;
+    top:45px;
+    font-size:30px;
+}
+#subscribe h2 {
+    text-align: center;
+    position: relative;
+    top:65px;
+    font-size:22px
+}
+.input {
+    position: relative;
+    display: inline-block;
+    top: 80px;
+    left: 120px;
+    margin: 10px;
+}
+.input input {
+    width: 300px;
+    height:40px
+}
+#email {
+    position: relative;
+    top: 90px;
+    left:130px;
+
+}
+#email input {
+    width:420px;
+    height:40px;
+}
+button {
+    height: 45px;
+    width: 180px;
+    position: relative;
+    left:580px;
+    top: 47px;
+    background-color: white;
+    border: solid black 2px
+}
+footer {
+    position: relative;
+    height:500px;
+    width:100%;
+    top:250px;
+    background-repeat: no-repeat;
+    background-size:100% 150px;
+    background-color:rgb(250, 244, 233);
+    background-position: bottom;
+    background-image: url(https://cdn.shopify.com/s/files/1/0416/8083/0620/files/footerg-desk.jpg?v=1597054294);
+}
+footer div {
+    display: inline-block;
+    margin:30px;
+    position: relative;
+    top:50px;
+}
+footer ul li {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    line-height: 1.5;
+    list-style-type: none; 
+    text-rendering: optimizeLegibility;
+    text-align:left;
+    margin:3px;
+    padding:3px
+}
+footer p {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    position: relative;
+    left:5px;
+}
+footer a{
+    text-decoration: none;
+}
+#need-help {
+    top: 23px;
+}
+#resources {
+    top: -3px
+}
+#more {
+    top:-3px
+}
+#social-media-icons img{
+    height:40px;
+    width:40px;
+    border-radius: 50px;
+    margin: 5px;
+    display:inline-block;
+}
